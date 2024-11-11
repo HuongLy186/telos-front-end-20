@@ -1,1 +1,5 @@
-p < style="color: orange"
+p {
+    font-size: 100px;
+    color: indianred;
+    font-weight: bold;
+}
