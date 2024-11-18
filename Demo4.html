@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            max-width: 1000px;
+            width: 100%;
+            height: 80px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hero {
+            max-width: 1000px;
+            width: 100%;
+            height: 600px;
+
+            display: flex;
+            align-items: center;
+        }
+        .menu {
+            height: 100%;
+            width: 200px;
+
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .logo {
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+        }
+        .social {
+            height: 100%;
+            width: 200px;
+
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            justify-content: flex-end;
+        }
+        .left {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .right {
+            width: 100%;
+        }
+        .title {
+            font-size: 72px;
+            line-height: 98px;
+            font-weight: 900;
+        }
+        .description {
+            font-size: 18px;
+            line-height: 32px;
+
+            margin-top: 16px;
+            margin-bottom: 32px;
+        }
+        .button {
+            width: 154px;
+            height: 48px;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 6px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle {
+            height: 740px;
+            width: 740px;
+            border-radius: 50%;
+            background-color: #8c38f5;
+            opacity: 0.5;
+            
+            position: fixed;
+            right: -110px;
+            top: -110px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="circle"></div>
+            <div class="menu">
+                <div>About</div>
+                <div>Pricing</div>
+                <div>Contact</div>
+            </div>
+            <div class="logo">
+                <img src="Images/logo.png" alt="">
+            </div>
+            <div class="social">
+                <img src="Images/ico_social_1.png" alt=""> 
+                <img src="Images/ico_social_2.png" alt="">
+                <img src="Images/ico_social_3.png" alt="">
+                <img src="Images/ico_social_4.png" alt="">
+            </div>
+        </div>
+        <div class="hero">
+            <div class="left">
+                <div class="title">Landing page UI kit</div>
+                <div class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                <div class="button">Get started</div>
+            </div>
+            <div class="right">
+                <img src="Images/img.png" alt="" style="width: 100%">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

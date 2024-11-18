@@ -1,0 +1,179 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huong Ly BTVN 02</title>
+    <style>
+        .container {
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+        .header {
+            max-width: 1080px;
+            width: 100%;
+            height: 72px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hero {
+            max-width: 1080px;
+            width: 100%;
+            height: 580px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: space-between;
+            gap: 64px;
+        }
+        .left {
+            height: 100%;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 32px;
+        }
+        .right {
+            height: 100%;
+
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            height: 28px;
+            display: flex;
+            justify-content: flex-start;
+        }
+        .menu {
+            width: 430px;
+            height: 100%;
+
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 32px;
+
+            font-family: inter;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .more {
+            width: 18px;
+            height: 18px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 4px;
+        }
+        .download {
+            height: 40px;
+
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+        .top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+        .title {
+            font-family: inter;
+            font-size: 72px;
+            font-weight: 800;
+            line-height: 98px;
+            text-align: center;
+        }
+        .button {
+            width: 158px;
+            height: 48px;
+            border-radius: 6px;
+            color: white;
+            background-color: rgba(140, 48, 245,1);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: inter;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+        .bottom {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            position: relative;
+        }
+        .container1 {
+            height: 171px;
+            overflow: hidden;
+            position: absolute;
+            z-index: -1;
+
+            display: flex;
+        }
+        .circle {
+            width: 1200px;
+            height: 1200px;
+            border-radius: 50%;
+            background-color: rgba(214, 177, 255, 1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <div>About</div>
+                    <div>Products</div>
+                    <div>Pricing</div>
+                    <div>Blog</div>
+                    <div>Jobs</div>
+                    <div class="more">
+                        <div>More</div>
+                        <img src="Hero/chevron-down.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="download">
+                    <img src="Hero/Google Play Badge.svg" alt="">
+                    <img src="Hero/App Store Badge.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="top">
+                <div class="title">
+                    <div>Track your product sales from anywhere, anytime.</div>
+                </div>
+                <div class="button">
+                    <div>Start selling</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>
+                    <img src="Hero/iPhone X.svg" alt="">
+                </div>
+                <div class="container1">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
