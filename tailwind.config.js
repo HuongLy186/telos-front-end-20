@@ -16,6 +16,7 @@ module.exports = {
         h2: ["48px", "64px"],
         lead1: ["18px", "32px"],
         lead2: ["18px", "32px"],
+        body: ["16px", "26px"],
       }
     },
   },
