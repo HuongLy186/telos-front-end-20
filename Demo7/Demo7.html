@@ -4,11 +4,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
+    <script src="demo.js"></script>
+
+    <style>
+        .animation {
+            animation-duration: 1s;
+            animation-name: slideIn;
+        }
+
+        @keyframes slideIn {
+            0% {
+                margin-left: -50px;
+            }
+
+            100% {
+                margin-left: 0px;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="flex flex-col items-center">
         <div class="container flex items-center justify-between h-18 gap-8">
-            <img src="./Images7/logo (1).png" alt="">
+            <img src="./Images7/logo (1).png" alt="" class="animation">
             <div class="ml-auto">About</div>
             <div>Service</div>
             <div>Blog</div>
@@ -32,25 +50,25 @@
                         <div>One line description</div>
                     </div>
                 </div>
-                <div class="flex items-center gap-4">
+                <div class="flex items-center gap-4 mb-10">
                     <img src="./Images7/ico_1.png" alt="">
                     <div class="flex flex-col gap-1">
                         <div class="text-h6">Headline</div>
                         <div>One line description</div>
                     </div>
                 </div>
-                <div>Buy now</div>
+                <div class="animate__animated animate__jello flex justify-center items-center rounded-lg w-24 h-10 text-white bg-purple-500">Buy now</div>
             </div>
         </div>
         <div class="bg-black w-full text-white py-16 flex justify-center">
             <div class="container grid sm:grid-cols-4 gap-7">
                 <div class="flex flex-col gap-3">
                     <div class="text-lead2 font-bold mb-1">Product</div>
-                    <div>Overflow</div>
-                    <div>features</div>
-                    <div>Tutorals</div>
-                    <div>Pricing</div>
-                    <div>Releases</div>
+                    <div class="wow animate__animated animate__slideInLeft">Overflow</div>
+                    <div class="wow animate__animated animate__slideInLeft">features</div>
+                    <div class="wow animate__animated animate__slideInLeft">Tutorals</div>
+                    <div class="wow animate__animated animate__slideInLeft">Pricing</div>
+                    <div class="wow animate__animated animate__slideInLeft">Releases</div>
                 </div>
                 <div class="flex flex-col gap-3">
                     <div class="text-lead2 font-bold mb-1">Product</div>
@@ -76,7 +94,7 @@
                     <div>Pricing</div>
                     <div>Releases</div>
                 </div>
-                <div class="sm:col-span-2 md:col-span-4 relative flex flex-col items-center mt-14">
+                <div class="sm:col-span-2 md:col-span-4 relative flex justify-center mt-14">
                     <img src="./Images7/ico.png" alt="" class="px-14 bg-black z-10" />
                     <hr class="w-full h-0.5 absolute top-1/2 -translate-y-1/2" />
                 </div>
